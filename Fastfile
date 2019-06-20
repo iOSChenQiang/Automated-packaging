@@ -25,7 +25,6 @@ platform :ios do
 
   end
 
-
   desc "上线 App Store"
   lane :release do | options |
 
@@ -108,7 +107,6 @@ platform :ios do
 
     puts"结束了"
   end
-
 
   error do |lane, exception, options|
     if options[:debug]
